@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanillaplusmachines:block/furnace_top",
+    "up": "vanillaplusmachines:block/furnace_top",
+    "north": "vanillaplusmachines:block/furnace_front",
+    "east": "vanillaplusmachines:block/furnace_side",
+    "south": "vanillaplusmachines:block/furnace_side",
+    "west": "vanillaplusmachines:block/furnace_side",
+    "particle": "vanillaplusmachines:block/furnace_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanillaplusmachines:block/concretemixerbottom",
+    "up": "vanillaplusmachines:block/concretemixertopwater",
+    "north": "vanillaplusmachines:block/concretemixerside",
+    "east": "vanillaplusmachines:block/concretemixerside",
+    "south": "vanillaplusmachines:block/concretemixerside",
+    "west": "vanillaplusmachines:block/concretemixerside",
+    "particle": "vanillaplusmachines:block/concretemixerbottom"
+  },
+  "render_type": "solid"
+}

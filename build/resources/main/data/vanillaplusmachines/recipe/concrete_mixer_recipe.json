@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_block"
+    },
+    "b": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "id": "vanillaplusmachines:concrete_mixer",
+    "count": 1
+  }
+}

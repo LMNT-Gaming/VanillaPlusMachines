@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "VanillaPlusMachines",
+    "icon": {
+      "value": "CUSTOM:Vpmlogo"
+    },
+    "showSearch": false
+  }
+}

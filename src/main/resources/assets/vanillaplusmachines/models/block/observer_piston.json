@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vanillaplusmachines:block/furnace_top",
+    "up": "vanillaplusmachines:block/observerpistontop",
+    "north": "vanillaplusmachines:block/observerpiston",
+    "east": "vanillaplusmachines:block/observer_side",
+    "south": "vanillaplusmachines:block/observerpiston",
+    "west": "vanillaplusmachines:block/observer_side",
+    "particle": "vanillaplusmachines:block/furnace_top"
+  },
+  "render_type": "solid"
+}

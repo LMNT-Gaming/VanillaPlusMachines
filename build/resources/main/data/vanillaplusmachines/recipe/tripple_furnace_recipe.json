@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:furnace"
+    },
+    "b": {
+      "item": "minecraft:stone"
+    },
+    "c": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "id": "vanillaplusmachines:tripple_furnace",
+    "count": 1
+  }
+}

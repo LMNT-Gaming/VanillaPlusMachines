@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanillaplusmachines:block/babysorter"
+    },
+    "facing=east": {
+      "model": "vanillaplusmachines:block/babysorter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanillaplusmachines:block/babysorter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanillaplusmachines:block/babysorter",
+      "y": 270
+    }
+  }
+}

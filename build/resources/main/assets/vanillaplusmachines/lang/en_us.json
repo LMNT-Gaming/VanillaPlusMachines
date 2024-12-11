@@ -1,0 +1,12 @@
+{
+  "gui.vanillaplusmachines.observer_piston_gui.Observeryup": "Observe one block up",
+  "gui.vanillaplusmachines.observer_piston_gui.button_empty": "",
+  "block.vanillaplusmachines.babysorter": "Babysorter",
+  "gui.vanillaplusmachines.observer_piston_gui.button_observe_one_block_up": "",
+  "block.vanillaplusmachines.concrete_mixer_watered": "Concrete Mixer",
+  "block.vanillaplusmachines.tripple_furnace": "Tripple Furnace",
+  "block.vanillaplusmachines.observer_piston": "Observer Piston",
+  "block.vanillaplusmachines.concrete_mixer": "Concrete Mixer",
+  "item.vanillaplusmachines.vpmlogo": "Vpmlogo",
+  "item_group.vanillaplusmachines.vpmtab": "VanillaPlusMachines"
+}

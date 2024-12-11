@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanillaplusmachines:block/observer_piston"
+    },
+    "facing=east": {
+      "model": "vanillaplusmachines:block/observer_piston",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanillaplusmachines:block/observer_piston",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanillaplusmachines:block/observer_piston",
+      "y": 270
+    }
+  }
+}

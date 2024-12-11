@@ -1,0 +1,328 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrppleFurnaceGUIProcR"
+          },
+          "x": 232,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcR50"
+          },
+          "x": 232,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace75.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcR75"
+          },
+          "x": 232,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flame30.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIFuel30"
+          },
+          "x": 206,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flame60.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIFuel60"
+          },
+          "x": 206,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "flame100.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIFuel90"
+          },
+          "x": 206,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace90.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcR90"
+          },
+          "x": 232,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace25l.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcL"
+          },
+          "x": 160,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace50l.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcL50"
+          },
+          "x": 160,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace75l.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcL75"
+          },
+          "x": 160,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnace90l.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcL90"
+          },
+          "x": 160,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnaceh25.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcUp"
+          },
+          "x": 223,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnaceh50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcUp50"
+          },
+          "x": 223,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnaceh75.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcUp75"
+          },
+          "x": 223,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "furnaceh90.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TrippleFurnaceGUIProcUp90"
+          },
+          "x": 223,
+          "y": 45
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "TrippleFurnaceFuelSlot"
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 98
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "TrippleFurnaceBurnSlot"
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "TrippleFurnaceBurnSlot"
+          },
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false,
+            "name": "TrippleFurnaceBurnSlot"
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 249,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_proc_tripple_furnace_gui_fuel",
+          "text": {
+            "fixedValue": "",
+            "name": "TrippleFurnaceGUIFuel"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 201,
+          "y": 76
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

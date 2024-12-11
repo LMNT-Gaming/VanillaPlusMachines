@@ -1,0 +1,23 @@
+/time set day
+/tick rate 60
+/tick rate 2000
+/tick rate 20
+/weather clear
+/tick rate 2000
+/tick rate 20
+/tick rate 2000
+/tick rate 20
+/tick rate 2000
+/tick rate 20
+/summon Cow ~ ~ ~ {Age:-1200}
+/summon minecraft:cow ~ ~ ~ {Age:-1200}
+/kill @s
+/kill @a
+/kill @n
+/kill @e
+/kill @e[type=!player
+/kill @e[type=!player,distance=10]
+/kill @e[type=!player]
+/gamemode survival
+/gamemode creative
+/summon minecraft:cow ~ ~ ~ {Age:-1200}
