@@ -22,7 +22,7 @@ import java.util.Comparator;
 
 public class BabysorterOnTickUpdateProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -39,12 +39,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH) {
-			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf(x, y, (z + 2))).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -53,7 +53,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, (z - 2)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:cow ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -70,12 +70,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH) {
-			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf(x, y, (z - 2))).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -84,7 +84,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, (z + 2)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:cow ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -101,12 +101,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
-			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf((x + 2), y, z)).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -115,7 +115,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3((x - 2), y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:cow ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -132,12 +132,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
-			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf((x - 2), y, z)).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Cow.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -146,7 +146,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3((x + 2), y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:cow ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -163,12 +163,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.NORTH) {
-			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf(x, y, (z + 2))).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z + 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -177,7 +177,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, (z - 2)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:pig ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -194,12 +194,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.SOUTH) {
-			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf(x, y, (z - 2))).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3(x, y, (z - 2)), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -208,7 +208,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, (z + 2)), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:pig ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -225,12 +225,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.WEST) {
-			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf((x + 2), y, z)).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x + 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}
@@ -239,7 +239,7 @@ public class BabysorterOnTickUpdateProcedure {
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3((x - 2), y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"summon minecraft:pig ~ ~ ~ {Age:-1600}");
 		}
-		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+		if (((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 			Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 				return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 			}
@@ -256,12 +256,12 @@ public class BabysorterOnTickUpdateProcedure {
 				return Direction.NORTH;
 			}
 		}.getDirection(BlockPos.containing(x, y, z))) == Direction.EAST) {
-			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+			if (!((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 				Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 					return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 				}
 			}.compareDistOf((x - 2), y, z)).findFirst().orElse(null)).level().isClientSide())
-				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 4, 4, 4), e -> true).stream().sorted(new Object() {
+				((Entity) world.getEntitiesOfClass(Pig.class, AABB.ofSize(new Vec3((x - 2), y, z), 5, 5, 5), e -> true).stream().sorted(new Object() {
 					Comparator<Entity> compareDistOf(double _x, double _y, double _z) {
 						return Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_x, _y, _z));
 					}

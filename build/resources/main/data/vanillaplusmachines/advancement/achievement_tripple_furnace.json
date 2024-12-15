@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "vanillaplusmachines:tripple_furnace"
+    },
+    "title": {
+      "translate": "advancements.achievement_tripple_furnace.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_tripple_furnace.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_tripple_furnace_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "vanillaplusmachines:tripple_furnace"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "vanillaplusmachines:tripple_furnace_recipe",
+      "vanillaplusmachines:babysorterrecipe",
+      "vanillaplusmachines:observer_piston_recipe",
+      "vanillaplusmachines:concrete_mixer_recipe"
+    ]
+  },
+  "parent": "vanillaplusmachines:achievement_machines"
+}

@@ -1,0 +1,33 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Coating",
+    "achievementDescription": "Start Coating Tools",
+    "achievementIcon": {
+      "value": "CUSTOM:CoatingTrimClay"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "CoatingTrimClayRecipe",
+      "CoatingTrimRecipe",
+      "CoatingTrimShovelRecipe",
+      "CoatingTrimShovelClayRecipe",
+      "CopperCoatedShovelSmithRecipe",
+      "DiamondCoatedIronPick",
+      "CopperCoatedIronpick"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:AchievementMaster"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"tick\"></block></next></block></xml>"
+  }
+}

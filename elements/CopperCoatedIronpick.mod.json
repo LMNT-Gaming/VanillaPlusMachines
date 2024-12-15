@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.IRON_PICKAXE"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.COPPER_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:CoatingTrim"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:CopperCoatedIronPickaxe"
+    },
+    "name": "copper_coated_ironpick",
+    "namespace": "mod"
+  }
+}

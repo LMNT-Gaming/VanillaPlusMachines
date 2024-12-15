@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "vanillaplusmachines:concrete_mixer"
+    },
+    "title": {
+      "translate": "advancements.achievement_concrete_mixer.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_concrete_mixer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_concrete_mixer_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "vanillaplusmachines:concrete_mixer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "vanillaplusmachines:tripple_furnace_recipe",
+      "vanillaplusmachines:babysorterrecipe",
+      "vanillaplusmachines:observer_piston_recipe",
+      "vanillaplusmachines:concrete_mixer_recipe"
+    ]
+  },
+  "parent": "vanillaplusmachines:achievement_machines"
+}

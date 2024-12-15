@@ -629,5 +629,101 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-12-15 11:42:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2024-12-15 13:53:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-12-15 13:53:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2024-12-15 13:53:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-15 14:30:54 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_tripple_furnace": {
+    "criteria": {
+      "achievement_tripple_furnace_0": "2024-12-15 14:43:11 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_concrete_mixer": {
+    "criteria": {
+      "achievement_concrete_mixer_0": "2024-12-15 14:43:19 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_better_pickaxe": {
+    "criteria": {
+      "achievement_better_pickaxe_0": "2024-12-15 14:50:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-12-15 15:06:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-12-15 15:06:23 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_coating": {
+    "criteria": {
+      "achievement_coating_0": "2024-12-15 15:35:30 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_master": {
+    "criteria": {
+      "achievement_master_0": "2024-12-15 15:37:19 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_machines": {
+    "criteria": {
+      "achievement_machines_0": "2024-12-15 15:38:56 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievements_trims": {
+    "criteria": {
+      "achievements_trims_0": "2024-12-15 15:43:12 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_pickaxe_trim": {
+    "criteria": {
+      "achievement_pickaxe_trim_0": "2024-12-15 15:56:15 +0100"
+    },
+    "done": true
+  },
+  "vanillaplusmachines:achievement_bettest_pickaxe": {
+    "criteria": {
+      "achievement_bettest_pickaxe_0": "2024-12-15 15:56:32 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

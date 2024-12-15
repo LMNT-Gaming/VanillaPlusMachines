@@ -1,0 +1,30 @@
+{
+  "_fv": 69,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Like Bambi, but better",
+    "achievementDescription": "Place an Babysorter",
+    "achievementIcon": {
+      "value": "CUSTOM:Babysorter"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "TrippleFurnaceRecipe",
+      "Babysorterrecipe",
+      "ObserverPistonRecipe",
+      "ConcreteMixerRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:AchievementMachines"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"block_placed\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Babysorter</field></block></value></block></next></block></xml>"
+  }
+}

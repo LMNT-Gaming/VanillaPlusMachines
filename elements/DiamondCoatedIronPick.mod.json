@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:StringedDiamondCoatedIronPickaxe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.DIAMOND"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:CoatingTrim"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:StringedDiamondCoatedIronPickaxe"
+    },
+    "name": "diamond_coated_iron_pick",
+    "namespace": "mod"
+  }
+}

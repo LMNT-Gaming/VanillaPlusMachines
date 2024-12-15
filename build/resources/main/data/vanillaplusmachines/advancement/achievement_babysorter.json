@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "vanillaplusmachines:babysorter"
+    },
+    "title": {
+      "translate": "advancements.achievement_babysorter.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_babysorter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_babysorter_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "vanillaplusmachines:babysorter"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "vanillaplusmachines:tripple_furnace_recipe",
+      "vanillaplusmachines:babysorterrecipe",
+      "vanillaplusmachines:observer_piston_recipe",
+      "vanillaplusmachines:concrete_mixer_recipe"
+    ]
+  },
+  "parent": "vanillaplusmachines:achievement_machines"
+}

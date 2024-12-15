@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "vanillaplusmachines:coating_trim_clay"
+    },
+    "title": {
+      "translate": "advancements.achievement_coating.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_coating.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_coating_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "vanillaplusmachines:coating_trim_clay_recipe",
+      "vanillaplusmachines:coating_trim_recipe",
+      "vanillaplusmachines:coating_trim_shovel_recipe",
+      "vanillaplusmachines:coating_trim_shovel_clay_recipe",
+      "vanillaplusmachines:copper_coated_shovel_smith_recipe",
+      "vanillaplusmachines:diamond_coated_iron_pick",
+      "vanillaplusmachines:copper_coated_ironpick"
+    ]
+  },
+  "parent": "vanillaplusmachines:achievement_master"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vanillaplusmachines:stringed_diamond_coated_iron_pickaxe",
+    "vanillaplusmachines:diamond_coated_iron_pickaxe",
+    "vanillaplusmachines:stringed_copper_coated_iron_pickaxe",
+    "vanillaplusmachines:copper_coated_iron_pickaxe"
+  ]
+}

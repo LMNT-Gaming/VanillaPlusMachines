@@ -21,3 +21,6 @@
 /gamemode survival
 /gamemode creative
 /summon minecraft:cow ~ ~ ~ {Age:-1200}
+/gamemode survival
+/gamemode
+/gamemode creative

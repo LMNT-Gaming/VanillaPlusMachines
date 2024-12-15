@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "vanillaplusmachines:coating_trim_clay"
+  },
+  "result": {
+    "id": "vanillaplusmachines:coating_trim"
+  }
+}

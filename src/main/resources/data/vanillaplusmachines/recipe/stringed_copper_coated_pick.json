@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "vanillaplusmachines:copper_coated_iron_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:string"
+  },
+  "result": {
+    "id": "vanillaplusmachines:stringed_copper_coated_iron_pickaxe"
+  }
+}

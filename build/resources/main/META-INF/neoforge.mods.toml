@@ -1,12 +1,12 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="vanillaplusmachines"
-version="0.1"
+version="0.2"
 displayName="VanillaPlusMachines"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/LMNT-Gaming/VanillaPlusMachines"
 logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Appa, MCreator"

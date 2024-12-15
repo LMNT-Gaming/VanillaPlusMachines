@@ -84,43 +84,43 @@ public class TrippleFurnaceGuiMenu extends AbstractContainerMenu implements Supp
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 79, 62) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 79, 86) {
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
 				return !TrippleFurnaceFuelSlotProcedure.execute(itemstack);
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 106, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 106, 41) {
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
 				return !TrippleFurnaceBurnSlotProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 26) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 41) {
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
 				return !TrippleFurnaceBurnSlotProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 52, 35) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 52, 41) {
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
 				return !TrippleFurnaceBurnSlotProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 124, 35) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 106, 23) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 8) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 79, 23) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 34, 35) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 52, 23) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
@@ -128,9 +128,9 @@ public class TrippleFurnaceGuiMenu extends AbstractContainerMenu implements Supp
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 49 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 49 + 142));
 	}
 
 	@Override

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "vanillaplusmachines:coating_trim"
+  },
+  "base": {
+    "item": "vanillaplusmachines:stringed_diamond_coated_iron_pickaxe"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "id": "vanillaplusmachines:stringed_diamond_coated_iron_pickaxe"
+  }
+}

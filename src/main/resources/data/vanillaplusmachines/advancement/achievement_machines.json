@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "vanillaplusmachines:concrete_mixer_watered"
+    },
+    "title": {
+      "translate": "advancements.achievement_machines.title"
+    },
+    "description": {
+      "translate": "advancements.achievement_machines.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "achievement_machines_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "vanillaplusmachines:tripple_furnace_recipe",
+      "vanillaplusmachines:babysorterrecipe",
+      "vanillaplusmachines:observer_piston_recipe",
+      "vanillaplusmachines:concrete_mixer_recipe"
+    ]
+  },
+  "parent": "vanillaplusmachines:achievement_master"
+}
