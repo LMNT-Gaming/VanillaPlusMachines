@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanillaplusmachines:block/schleifstein"
+    },
+    "facing=east": {
+      "model": "vanillaplusmachines:block/schleifstein",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanillaplusmachines:block/schleifstein",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanillaplusmachines:block/schleifstein",
+      "y": 270
+    }
+  }
+}

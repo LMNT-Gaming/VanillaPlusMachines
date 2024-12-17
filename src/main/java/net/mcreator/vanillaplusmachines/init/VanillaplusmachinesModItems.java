@@ -41,6 +41,8 @@ public class VanillaplusmachinesModItems {
 	public static final DeferredItem<Item> COPPER_COATED_SHOVEL = REGISTRY.register("copper_coated_shovel", CopperCoatedShovelItem::new);
 	public static final DeferredItem<Item> COATING_TRIM_CLAY_SHOVEL = REGISTRY.register("coating_trim_clay_shovel", CoatingTrimClayShovelItem::new);
 	public static final DeferredItem<Item> COATING_TRIM_SHOVEL = REGISTRY.register("coating_trim_shovel", CoatingTrimShovelItem::new);
+	public static final DeferredItem<Item> GRINDERER = block(VanillaplusmachinesModBlocks.GRINDERER);
+	public static final DeferredItem<Item> SCHLEIFSTEIN = block(VanillaplusmachinesModBlocks.SCHLEIFSTEIN);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vanillaplusmachines:block/grinderer"
+    },
+    "facing=east": {
+      "model": "vanillaplusmachines:block/grinderer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vanillaplusmachines:block/grinderer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vanillaplusmachines:block/grinderer",
+      "y": 270
+    }
+  }
+}

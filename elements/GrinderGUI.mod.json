@@ -1,0 +1,193 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_grind",
+          "text": "Grind",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GrinderRepair"
+          },
+          "displayCondition": {
+            "name": "TapGrindButtonVisible"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 186,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_start",
+          "text": "Tap",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GrinderButtonTap"
+          },
+          "displayCondition": {
+            "name": "TapGrindButtonVisible"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "leiste.png",
+          "use1Xscale": false,
+          "x": 132,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder10"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder20"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "30.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder30"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "40.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder40"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "50.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder50"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "60.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder60"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "70.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder70"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "80.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder80"
+          },
+          "x": 133,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "90.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Grinder90"
+          },
+          "x": 133,
+          "y": 69
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 12,
+      "oy": 28,
+      "snapOnGrid": true
+    }
+  }
+}

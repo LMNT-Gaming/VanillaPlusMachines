@@ -1,0 +1,11 @@
+{
+  "grindermachine": {
+    "subtitle": "subtitles.grindermachine",
+    "sounds": [
+      {
+        "name": "vanillaplusmachines:industrial-machine-loop",
+        "stream": false
+      }
+    ]
+  }
+}

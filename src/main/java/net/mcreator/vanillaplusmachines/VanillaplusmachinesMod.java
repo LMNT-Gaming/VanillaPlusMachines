@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.vanillaplusmachines.network.VanillaplusmachinesModVariables;
 import net.mcreator.vanillaplusmachines.init.VanillaplusmachinesModTabs;
+import net.mcreator.vanillaplusmachines.init.VanillaplusmachinesModSounds;
 import net.mcreator.vanillaplusmachines.init.VanillaplusmachinesModMenus;
 import net.mcreator.vanillaplusmachines.init.VanillaplusmachinesModItems;
 import net.mcreator.vanillaplusmachines.init.VanillaplusmachinesModBlocks;
@@ -42,7 +43,7 @@ public class VanillaplusmachinesMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		VanillaplusmachinesModSounds.REGISTRY.register(modEventBus);
 		VanillaplusmachinesModBlocks.REGISTRY.register(modEventBus);
 		VanillaplusmachinesModBlockEntities.REGISTRY.register(modEventBus);
 		VanillaplusmachinesModItems.REGISTRY.register(modEventBus);

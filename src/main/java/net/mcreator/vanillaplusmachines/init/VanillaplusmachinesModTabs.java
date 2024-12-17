@@ -37,6 +37,8 @@ public class VanillaplusmachinesModTabs {
 				tabData.accept(VanillaplusmachinesModItems.COPPER_COATED_SHOVEL.get());
 				tabData.accept(VanillaplusmachinesModItems.COATING_TRIM_CLAY_SHOVEL.get());
 				tabData.accept(VanillaplusmachinesModItems.COATING_TRIM_SHOVEL.get());
+				tabData.accept(VanillaplusmachinesModBlocks.GRINDERER.get().asItem());
+				tabData.accept(VanillaplusmachinesModBlocks.SCHLEIFSTEIN.get().asItem());
 			})
 
 					.build());

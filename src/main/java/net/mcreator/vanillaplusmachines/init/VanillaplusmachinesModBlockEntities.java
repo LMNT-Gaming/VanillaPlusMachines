@@ -16,7 +16,9 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.mcreator.vanillaplusmachines.block.entity.TrippleFurnaceBlockEntity;
+import net.mcreator.vanillaplusmachines.block.entity.SchleifsteinBlockEntity;
 import net.mcreator.vanillaplusmachines.block.entity.ObserverPistonBlockEntity;
+import net.mcreator.vanillaplusmachines.block.entity.GrindererBlockEntity;
 import net.mcreator.vanillaplusmachines.block.entity.BabysorterBlockEntity;
 import net.mcreator.vanillaplusmachines.VanillaplusmachinesMod;
 
@@ -26,6 +28,8 @@ public class VanillaplusmachinesModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> TRIPPLE_FURNACE = register("tripple_furnace", VanillaplusmachinesModBlocks.TRIPPLE_FURNACE, TrippleFurnaceBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> OBSERVER_PISTON = register("observer_piston", VanillaplusmachinesModBlocks.OBSERVER_PISTON, ObserverPistonBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> BABYSORTER = register("babysorter", VanillaplusmachinesModBlocks.BABYSORTER, BabysorterBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> GRINDERER = register("grinderer", VanillaplusmachinesModBlocks.GRINDERER, GrindererBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<?>> SCHLEIFSTEIN = register("schleifstein", VanillaplusmachinesModBlocks.SCHLEIFSTEIN, SchleifsteinBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -38,5 +42,7 @@ public class VanillaplusmachinesModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TRIPPLE_FURNACE.get(), (blockEntity, side) -> ((TrippleFurnaceBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, OBSERVER_PISTON.get(), (blockEntity, side) -> ((ObserverPistonBlockEntity) blockEntity).getItemHandler());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, BABYSORTER.get(), (blockEntity, side) -> ((BabysorterBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, GRINDERER.get(), (blockEntity, side) -> ((GrindererBlockEntity) blockEntity).getItemHandler());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SCHLEIFSTEIN.get(), (blockEntity, side) -> ((SchleifsteinBlockEntity) blockEntity).getItemHandler());
 	}
 }

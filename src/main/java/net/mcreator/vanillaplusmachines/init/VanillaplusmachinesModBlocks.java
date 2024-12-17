@@ -10,7 +10,9 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.vanillaplusmachines.block.TrippleFurnaceBlock;
+import net.mcreator.vanillaplusmachines.block.SchleifsteinBlock;
 import net.mcreator.vanillaplusmachines.block.ObserverPistonBlock;
+import net.mcreator.vanillaplusmachines.block.GrindererBlock;
 import net.mcreator.vanillaplusmachines.block.ConcreteMixerWateredBlock;
 import net.mcreator.vanillaplusmachines.block.ConcreteMixerBlock;
 import net.mcreator.vanillaplusmachines.block.BabysorterBlock;
@@ -23,6 +25,8 @@ public class VanillaplusmachinesModBlocks {
 	public static final DeferredBlock<Block> BABYSORTER = REGISTRY.register("babysorter", BabysorterBlock::new);
 	public static final DeferredBlock<Block> CONCRETE_MIXER = REGISTRY.register("concrete_mixer", ConcreteMixerBlock::new);
 	public static final DeferredBlock<Block> CONCRETE_MIXER_WATERED = REGISTRY.register("concrete_mixer_watered", ConcreteMixerWateredBlock::new);
+	public static final DeferredBlock<Block> GRINDERER = REGISTRY.register("grinderer", GrindererBlock::new);
+	public static final DeferredBlock<Block> SCHLEIFSTEIN = REGISTRY.register("schleifstein", SchleifsteinBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

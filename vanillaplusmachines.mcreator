@@ -1143,8 +1143,8 @@
       "registry_name": "stringed_copper_coated_iron_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vanillaplusmachines/models/item/stringed_copper_coated_iron_pickaxe.json",
-          "src/main/java/net/mcreator/vanillaplusmachines/item/StringedCopperCoatedIronPickaxeItem.java"
+          "src/main/java/net/mcreator/vanillaplusmachines/item/StringedCopperCoatedIronPickaxeItem.java",
+          "src/main/resources/assets/vanillaplusmachines/models/item/stringed_copper_coated_iron_pickaxe.json"
         ]
       },
       "path": "~/Refinement/tools"
@@ -1222,8 +1222,8 @@
       "registry_name": "diamond_coated_iron_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vanillaplusmachines/models/item/diamond_coated_iron_pickaxe.json",
-          "src/main/java/net/mcreator/vanillaplusmachines/item/DiamondCoatedIronPickaxeItem.java"
+          "src/main/java/net/mcreator/vanillaplusmachines/item/DiamondCoatedIronPickaxeItem.java",
+          "src/main/resources/assets/vanillaplusmachines/models/item/diamond_coated_iron_pickaxe.json"
         ]
       },
       "path": "~/Refinement/tools"
@@ -1236,8 +1236,8 @@
       "registry_name": "stringed_diamond_coated_iron_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vanillaplusmachines/item/StringedDiamondCoatedIronPickaxeItem.java",
-          "src/main/resources/assets/vanillaplusmachines/models/item/stringed_diamond_coated_iron_pickaxe.json"
+          "src/main/resources/assets/vanillaplusmachines/models/item/stringed_diamond_coated_iron_pickaxe.json",
+          "src/main/java/net/mcreator/vanillaplusmachines/item/StringedDiamondCoatedIronPickaxeItem.java"
         ]
       },
       "path": "~/Refinement/tools"
@@ -1512,6 +1512,518 @@
         ]
       },
       "path": "~/Achievement"
+    },
+    {
+      "name": "ToolRepair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tool_repair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/ToolRepairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/tools"
+    },
+    {
+      "name": "GrinderGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/world/inventory/GrinderGUIMenu.java",
+          "src/main/java/net/mcreator/vanillaplusmachines/client/gui/GrinderGUIScreen.java",
+          "src/main/java/net/mcreator/vanillaplusmachines/network/GrinderGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "GrinderButtonTap",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_button_tap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/GrinderButtonTapProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "GrinderOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/GrinderOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_20",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder30",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_30",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder30Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder40",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_40",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder40Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder50",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_50",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder50Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder60",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_60",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder60Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder70",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_70",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder70Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder80",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_80",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder80Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinder90",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_90",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/Grinder90Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "TapGrindButtonVisible",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tap_grind_button_visible",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/TapGrindButtonVisibleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "GrinderRepair",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder_repair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/procedures/GrinderRepairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Grinderer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/block/GrindererBlock.java",
+          "src/main/resources/data/vanillaplusmachines/loot_table/blocks/grinderer.json",
+          "src/main/java/net/mcreator/vanillaplusmachines/block/entity/GrindererBlockEntity.java",
+          "src/main/resources/assets/vanillaplusmachines/models/item/grinderer.json",
+          "src/main/resources/assets/vanillaplusmachines/models/block/grinderer.json",
+          "src/main/resources/assets/vanillaplusmachines/blockstates/grinderer.json"
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "GrindererRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinderer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vanillaplusmachines/recipe/grinderer_recipe.json"
+        ]
+      },
+      "path": "~/Refinement/Grinder"
+    },
+    {
+      "name": "Schleifstein",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schleifstein",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vanillaplusmachines/block/SchleifsteinBlock.java",
+          "src/main/java/net/mcreator/vanillaplusmachines/block/entity/SchleifsteinBlockEntity.java",
+          "src/main/resources/assets/vanillaplusmachines/blockstates/schleifstein.json",
+          "src/main/resources/assets/vanillaplusmachines/models/block/schleifstein.json",
+          "src/main/resources/assets/vanillaplusmachines/models/item/schleifstein.json",
+          "src/main/resources/data/vanillaplusmachines/loot_table/blocks/schleifstein.json"
+        ]
+      },
+      "path": "~/Refinement/Grinder"
     }
   ],
   "variable_elements": [
@@ -1522,7 +2034,16 @@
       "value": "199.9"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "grindermachine",
+      "files": [
+        "industrial-machine-loop"
+      ],
+      "category": "block",
+      "subtitle": "Spinning Machine"
+    }
+  ],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:StringedDiamondCoatedIronPickaxe",
@@ -1537,49 +2058,54 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "gui.vanillaplusmachines.tripple_furnace_gui.label_vpm": "VPM",
+      "subtitles.grindermachine": "Spinning Machine",
+      "item.vanillaplusmachines.stringed_diamond_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
+      "block.vanillaplusmachines.concrete_mixer": "Concrete Mixer",
+      "gui.vanillaplusmachines.observer_piston_gui.Observeryup": "Observe one block up",
+      "gui.vanillaplusmachines.tripple_furnace_gui.button_xp": "XP",
+      "advancements.achievement_bettest_pickaxe.title": "An slightly better better Pickaxe",
+      "item.vanillaplusmachines.diamond_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
+      "advancements.achievement_bettest_pickaxe.descr": "Smith an Diamondcoated Ironpick",
+      "block.vanillaplusmachines.concrete_mixer_watered": "Concrete Mixer",
+      "advancements.achievement_observer_pistone.title": "Did you said Automation?",
+      "advancements.achievement_coating.title": "Coating",
+      "advancements.achievements_trims.descr": "Trim it to the limit",
+      "item.vanillaplusmachines.coating_trim_shovel": "Coating Shovel Trim",
+      "item.vanillaplusmachines.stringed_copper_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
+      "advancements.achievement_concrete_mixer.descr": "Place an Concrete Mixer",
+      "block.vanillaplusmachines.grinderer": "Grinderer",
+      "advancements.achievement_master.descr": "Let the fun begin!",
+      "advancements.achievement_pickaxe_trim.descr": "Craft an Claytrim",
+      "advancements.achievement_better_pickaxe.descr": "Smith an Coppercoated Ironpick",
       "advancements.achievement_machines.title": "Machines",
+      "gui.vanillaplusmachines.grinder_gui.button_start": "Tap",
       "item.vanillaplusmachines.coating_trim_clay_shovel": "Coating Shovel Claytrim",
       "advancements.achievement_babysorter.descr": "Place an Babysorter",
       "gui.vanillaplusmachines.observer_piston_gui.button_empty": "",
       "gui.vanillaplusmachines.observer_piston_gui.button_observe_one_block_up": "",
-      "gui.vanillaplusmachines.tripple_furnace_gui.label_vpm": "VPM",
       "advancements.achievement_babysorter.title": "Like Bambi, but better",
       "advancements.achievement_tripple_furnace.title": "Smelt the hell out of it",
-      "item.vanillaplusmachines.stringed_diamond_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
       "advancements.achievement_master.title": "Vanilla Plus Machines",
-      "block.vanillaplusmachines.concrete_mixer": "Concrete Mixer",
-      "gui.vanillaplusmachines.tripple_furnace_gui.button_xp": "XP",
-      "gui.vanillaplusmachines.observer_piston_gui.Observeryup": "Observe one block up",
-      "advancements.achievement_bettest_pickaxe.title": "An slightly better better Pickaxe",
       "advancements.achievements_trims.title": "Trims",
       "item.vanillaplusmachines.copper_coated_iron_pickaxe": "Copper Coated Iron Pickaxe",
       "advancements.achievement_coating.descr": "Start Coating Tools",
-      "item.vanillaplusmachines.diamond_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
-      "advancements.achievement_bettest_pickaxe.descr": "Smith an Diamondcoated Ironpick",
-      "block.vanillaplusmachines.concrete_mixer_watered": "Concrete Mixer",
       "block.vanillaplusmachines.tripple_furnace": "Tripple Furnace",
       "item_group.vanillaplusmachines.vpmtab": "VanillaPlusMachines",
-      "advancements.achievement_observer_pistone.title": "Did you said Automation?",
-      "advancements.achievement_coating.title": "Coating",
       "block.vanillaplusmachines.babysorter": "Babysorter",
       "advancements.achievement_observer_pistone.descr": "Place an Observerpiston",
       "advancements.achievement_pickaxe_trim.title": "Trim it Baby!",
-      "advancements.achievements_trims.descr": "Trim it to the limit",
+      "gui.vanillaplusmachines.grinder_gui.button_grind": "Grind",
       "item.vanillaplusmachines.coating_trim_clay": "Coating Pickaxe Claytrim",
+      "block.vanillaplusmachines.schleifstein": "Grinderer",
       "block.vanillaplusmachines.observer_piston": "Observer Piston",
       "item.vanillaplusmachines.copper_coated_shovel": "Stringed Copper Coated Iron Pickaxe",
-      "item.vanillaplusmachines.coating_trim_shovel": "Coating Shovel Trim",
-      "item.vanillaplusmachines.stringed_copper_coated_iron_pickaxe": "Stringed Copper Coated Iron Pickaxe",
       "item.vanillaplusmachines.coating_trim": "Coating Pickaxe Trim",
-      "advancements.achievement_concrete_mixer.descr": "Place an Concrete Mixer",
       "advancements.achievement_tripple_furnace.descr": "Place an Tripple Furnace",
       "advancements.achievement_better_pickaxe.title": "An slightly better Pickaxe",
-      "advancements.achievement_master.descr": "Let the fun begin!",
       "advancements.achievement_machines.descr": "Do you neet Machines?",
       "advancements.achievement_concrete_mixer.title": "No Waterwasteing",
-      "advancements.achievement_pickaxe_trim.descr": "Craft an Claytrim",
-      "item.vanillaplusmachines.vpmlogo": "Vpmlogo",
-      "advancements.achievement_better_pickaxe.descr": "Smith an Coppercoated Ironpick"
+      "item.vanillaplusmachines.vpmlogo": "Vpmlogo"
     }
   },
   "foldersRoot": {
@@ -1620,6 +2146,10 @@
           },
           {
             "name": "Trims",
+            "children": []
+          },
+          {
+            "name": "Grinder",
             "children": []
           }
         ]
